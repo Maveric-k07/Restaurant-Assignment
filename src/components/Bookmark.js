@@ -11,6 +11,7 @@ const Bookmark = () => {
 
   useEffect(() => {
     dispatch(fetchBookmarks());
+    // eslint-disable-next-line
   }, []);
 
   const handleDelete = (i) => {
