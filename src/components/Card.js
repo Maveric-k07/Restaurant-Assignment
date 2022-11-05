@@ -16,6 +16,7 @@ const Card = () => {
   useEffect(() => {
     console.log("Restaurant first");
     dispatch(fetchRestaurants());
+    // eslint-disable-next-line
   }, []);
 
   const handleDelete = (i) => {
