@@ -19,7 +19,7 @@ const Home = () => {
       <nav className="navbar navbar-light bg-light justify-content-between">
         <h1 style={{ padding: "0.5rem" }} className="navbar-brand">
           {" "}
-          test
+          testing
         </h1>
         <h1
           style={{ padding: "0.5rem", float: "right", cursor: "pointer" }}
